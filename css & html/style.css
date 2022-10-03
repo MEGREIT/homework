@@ -1,0 +1,49 @@
+/*---------------- body structures------------*/
+body{
+    background-size: cover;
+    background-image: url(../img/360_F_442215355_AjiR6ogucq3vPzjFAAEfwbPXYGqYVAap.jpg) 
+   
+
+
+   } 
+    
+@font-face{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   src: url(/css\ &\ html/#arial_geobolditalic);
+}
+
+
+
+/*---------------- body structures------------*/
+
+
+/*---------header start-----------*/
+header{
+    display: flex;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+nav > p {
+    border: 2px solid black;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+nav > p:hover{
+    background-color: purple;
+    color: black;
+}
+
+
+
+/*---------header end-------------*/
